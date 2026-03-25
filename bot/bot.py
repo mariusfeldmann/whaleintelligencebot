@@ -121,7 +121,7 @@ async def handle_message(message: types.Message):
 
 
 async def main():
-    logger.info("Starting TON DeFi Copilot bot")
+    logger.info("Starting TON DeFi Copilot bot powered by TONSCAN.COM")
     bot = Bot(token=settings.telegram.bot_token)
     await dp.start_polling(bot)
 
